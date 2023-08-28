@@ -1,0 +1,9 @@
+{
+	"name": "ufuk-data-factory",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "882587bf-baab-4db6-b1a9-e53f3af07a35",
+		"tenantId": "f128e6ee-ce44-4e6f-9d1e-74c6aaa4a5fa"
+	}
+}
