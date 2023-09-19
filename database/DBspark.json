@@ -1,0 +1,24 @@
+{
+	"name": "DBspark",
+	"properties": {
+		"Name": "DBspark",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true,
+			"DerivedModelDBInfo": "{\"ModelDirectives\":{\"BaseModel\":{\"Name\":\"Automotive\",\"Version\":\"1.3.0\"}}}"
+		},
+		"Description": "asd",
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://ufuk-adls-file-system@ufuk1adls.dfs.core.windows.net/DBspark",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "ufuk-adls-workspace-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
